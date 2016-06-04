@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="com.swolebrain.tictactoe" version="1.0.7">
+        id="com.swolebrain.tictactoe" version="1.0.0">
   <name>Tic Tac Toe</name>
   <description>A sample app to use PhoneGap</description>
   <author href="http://www.swolebrain.com" email="thecodingteacher@gmail.com">Swolebrain</author>
@@ -59,8 +59,8 @@
     <splash src="res/screen/android/drawable-port-hdpi-screen.png" density="port-hdpi"/>
     <splash src="res/screen/android/drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
     <!--<splash src="res/screen/android/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
-    <splash src="res/screen/android/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>-->
-  </platform>
+    <splash src="res/screen/android/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
+  </platform>-->
 
   <access origin="*"/>
   <allow-intent href="http://*/*"/>
@@ -70,8 +70,6 @@
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
   <platform name="android">
-    <allow-intent href="*.firebaseio.com" />
-    <allow-intent href="auth.firebase.com" />
     <allow-intent href="*.phonegap.com" />
     <allow-intent href="market:*"/>
   </platform>
