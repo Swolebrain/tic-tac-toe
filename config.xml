@@ -4,72 +4,7 @@
   <description>A sample app to use PhoneGap</description>
   <author href="http://www.swolebrain.com" email="thecodingteacher@gmail.com">Swolebrain</author>
   <content src="index.html"/>
-  <platform name="android" />
-  <!-- <preference name="android-build-tool" value="gradle" />
-  <gap:config-file platform="android" parent="/manifest">
-     <application android:debuggable="true" />
-   </gap:config-file> -->
 
-
-  <!--<preference name="DisallowOverscroll" value="true"/>
-  <preference name="android-minSdkVersion" value="14"/>
-  <plugin name="cordova-plugin-battery-status" source="npm"/>
-  <plugin name="cordova-plugin-camera" source="npm"/>
-  <plugin name="cordova-plugin-media-capture" source="npm"/>
-  <plugin name="cordova-plugin-console" source="npm"/>
-  <plugin name="cordova-plugin-contacts" source="npm"/>
-  <plugin name="cordova-plugin-device" source="npm"/>
-  <plugin name="cordova-plugin-device-motion" source="npm"/>
-  <plugin name="cordova-plugin-device-orientation" source="npm"/>
-  <plugin name="cordova-plugin-dialogs" source="npm"/>
-  <plugin name="cordova-plugin-file" source="npm"/>
-  <plugin name="cordova-plugin-file-transfer" source="npm"/>
-  <plugin name="cordova-plugin-geolocation" source="npm"/>
-  <plugin name="cordova-plugin-globalization" source="npm"/>-->
-  <plugin name="cordova-plugin-inappbrowser" source="npm"/>
-  <plugin name="cordova-plugin-media" source="npm"/>
-  <!--<plugin name="cordova-plugin-network-information" source="npm"/>-->
-  <!--<plugin name="cordova-plugin-splashscreen" source="npm"/>
-  <plugin name="cordova-plugin-statusbar" source="npm"/>
-  <plugin name="cordova-plugin-vibration" source="npm"/>
-  <plugin name="cordova-plugin-whitelist" source="npm"/>-->
-
-<!--
-  <plugin name="phonegap-plugin-push" source="npm">
-      <param name="SENDER_ID" value="866223284827" />
-  </plugin>
--->
-
-<!--
-  <icon src="icon.png"/>
-  <platform name="android">
-    <icon src="res/icon/android/drawable-ldpi-icon.png" density="ldpi"/>
-    <icon src="res/icon/android/drawable-mdpi-icon.png" density="mdpi"/>
-    <icon src="res/icon/android/drawable-hdpi-icon.png" density="hdpi"/>
-    <icon src="res/icon/android/drawable-xhdpi-icon.png" density="xhdpi"/>
-    <icon src="res/icon/android/drawable-xxhdpi-icon.png" density="xxhdpi"/>
-    <icon src="res/icon/android/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
-    <!--<splash src="res/screen/android/drawable-land-ldpi-screen.png" density="land-ldpi"/>
-    <splash src="res/screen/android/drawable-land-mdpi-screen.png" density="land-mdpi"/>
-    <splash src="res/screen/android/drawable-land-hdpi-screen.png" density="land-hdpi"/>
-    <splash src="res/screen/android/drawable-land-xhdpi-screen.png" density="land-xhdpi"/>
-    <splash src="res/screen/android/drawable-land-xxhdpi-screen.png" density="land-xxhdpi"/>
-    <splash src="res/screen/android/drawable-land-xxxhdpi-screen.png" density="land-xxxhdpi"/>
-    <splash src="res/screen/android/drawable-port-ldpi-screen.png" density="port-ldpi"/>
-    <splash src="res/screen/android/drawable-port-mdpi-screen.png" density="port-mdpi"/>
-    <splash src="res/screen/android/drawable-port-hdpi-screen.png" density="port-hdpi"/>
-    <splash src="res/screen/android/drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
-    <!--<splash src="res/screen/android/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
-    <splash src="res/screen/android/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
-  </platform>-->
-
-  <access origin="*"/>
-  <allow-intent href="http://*/*"/>
-  <allow-intent href="https://*/*"/>
-  <allow-intent href="tel:*"/>
-  <allow-intent href="sms:*"/>
-  <allow-intent href="mailto:*"/>
-  <allow-intent href="geo:*"/>
   <platform name="android">
     <allow-intent href="*.phonegap.com" />
     <allow-intent href="market:*"/>
