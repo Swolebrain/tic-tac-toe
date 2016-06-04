@@ -5,6 +5,7 @@
   <description>A sample app to use PhoneGap</description>
   <author href="http://www.swolebrain.com" email="thecodingteacher@gmail.com">Swolebrain</author>
   <content src="index.html"/>
+  <platform name="android" />
   <!-- <preference name="android-build-tool" value="gradle" />
   <gap:config-file platform="android" parent="/manifest">
      <application android:debuggable="true" />
@@ -34,10 +35,11 @@
   <plugin name="cordova-plugin-vibration" source="npm"/>
   <plugin name="cordova-plugin-whitelist" source="npm"/>-->
 
-
+<!--
   <plugin name="phonegap-plugin-push" source="npm">
       <param name="SENDER_ID" value="866223284827" />
   </plugin>
+-->
 
 <!--
   <icon src="icon.png"/>
