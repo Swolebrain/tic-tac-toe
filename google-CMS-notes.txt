@@ -1,0 +1,13 @@
+Create google project
+The "Sender ID" is under manage projects > settings > project number 866223284827
+Enable the API
+A warning comes up, click on "go to credentials"
+Go through two steps, create Server Key: AIzaSyBXEC-mD3-4Sxl1AO2icvxvNw8hlT7nUho
+
+
+To debug: 
+You have to install minimal_adb_fastboot
+go to install folder and run command "adb devices"
+Install gapdebug: https://www.genuitec.com/products/gapdebug/learning-center/configuration/
+
+Registration ID: fdVvtr6PnSQ:APA91bGFZZBmvc3I8Ps1SKH2pupFBOxcnMgADX_PSszIMTK_LFIQZV3pViJF1-ogCE5ZClDGiuOQ_xrU4xekdnTHrBpdNBVnZZhg5WcDNoXd5IXiPkVSniE0BUi7d8BqKYKhxkDWwkxe

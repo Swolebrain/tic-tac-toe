@@ -1,0 +1,31 @@
+what is phonegap?
+
+what is cordova? Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies - HTML5, CSS3, and JavaScript for cross-platform development. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's capabilities such as sensors, data, network status, etc.
+
+What does this mean?
+
+modalities:
+- phonegap desktop/CLI and phone client 
+- phonegap build
+
+Generic steps: have some code on YOUR github, create phonegap account, get signing keys, upload signing keys, create phonegap app, build it
+
+Phonegap build docs: http://docs.phonegap.com/phonegap-build/
+--Create an account at build.phonegap.com
+--File structure Requirements (both for build and desktop, do not mix!)
+--Download or clone the jquery tic tac toe plugin or open up your own:
+	https://github.com/Swolebrain/tic-tac-toe
+--Bring over my sample config.xml and go over it, stripping it of everything we dont need
+--Create your own github repo out of it
+
+Next is generating the keys: http://docs.phonegap.com/phonegap-build/signing/android/
+keytool is in C:\Program Files\Java\jre1.8.0_91\bin
+command is: keytool -genkey -v -keystore tictactoe.keystore -alias tictactoe -keyalg RSA -keysize 2048 -validity 10000
+
+Next, we add the key to our phonegap build application.
+
+Then we create the phonegap app, discuss hydration and debugging.
+
+Finally we build it.
+
+Test it and it fails, so we need to enable debugging.
